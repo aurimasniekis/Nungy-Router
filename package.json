@@ -1,0 +1,33 @@
+{
+	"name": "nungy_router",
+	"preferGlobal": "true",
+	"version": "0.0.1",
+	"author": "Aurimas Niekis <aurimas.niekis@gmail.com>",
+	"description": "a Nungy framework HTTP Router",
+	"contributors": [
+		{
+			"name": "Aurimas Niekis",
+			"email": "aurimas.niekis@gmail.com"
+		}],
+	"main": "./lib/router",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/gcds/nungy_router.git"
+	},
+	"keywords": [
+		"nungy",
+		"router",
+		"url",
+		"static",
+		"http",
+		"server"
+	],
+	"dependencies": {
+		"mine": "*",
+		"url": "*"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=0.6"
+	}
+}
